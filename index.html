@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+    function changeBackground() {
+		const red = Math.floor(Math.random() * 256);
+		const green = Math.floor(Math.random() * 256);
+		const blue = Math.floor(Math.random() * 256);
+        document.body.style.background = "rgb(" + red + ", " + green + ", " + blue + ")";
+    }
+    </script>   
+
+    <style>
+    .body {
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        background: antiquewhite;
+    }
+    .button {
+        padding: 10px 40px;
+        border: 3px solid #1b1fee;
+        background: #fff;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    </style>
+    <script>
+        function myFunction() {
+          document.body.style.backgroundColor = "red";
+        }
+        </script>
+    document.getElemen    
+</head>
+<body class=".body" class="randomBackground" id="randomBackground">
+    <div>
+        <button onclick="changeBackground()">Click me</button>
+    </div>
+    <div>
+
+    </div>
+    <script>
+    document.getElementById("clear").onclick = function () {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+    }
+    </script>
+    <canvas class=".body" class="randomBackground" id="randomBackground"style="width: 150px;height: 120px;background-color: rgb(141, 56, 56)"></canvas>
+    <button id="clear" type="button" onclick="function ()">Set background color</button>
+    <canvas id="myCanvas" width="300" height="150" style="border:30px solid #d3d3d3;">
+        Your browser does not support the HTML5 canvas tag.</canvas>
+        
+        
+            
+            <p>Click the button to draw on the canvas.</p>
+            
+            <button onclick="myFunction()">Try it</button>
+            
+            <script>
+            function myFunction() {
+              var c = document.getElementById("myCanvas");
+              var ctx = c.getContext("2d");
+              ctx.fillStyle = "#ff0080";
+              
+              ctx.fillRect(0, 0, 300, 150);
+            }
+            </script> 
+            ["red", "blue", "green"]
+            <p>test test test</p>
+</body>
+</html>
